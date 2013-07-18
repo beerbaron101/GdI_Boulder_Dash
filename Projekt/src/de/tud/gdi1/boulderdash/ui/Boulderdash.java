@@ -58,13 +58,13 @@ public class Boulderdash extends StateBasedGame{
 
 	@Override
 	public void initStatesList(GameContainer arg0) throws SlickException {
-		addState(new MenuState(MENU_STATE));
-        addState(new GameState(GAME_STATE));
-        addState(new OptState(OPT_STATE));
-        
-        StateBasedEntityManager.getInstance().addState(MENU_STATE);
-        StateBasedEntityManager.getInstance().addState(GAME_STATE);
-        StateBasedEntityManager.getInstance().addState(OPT_STATE);
+//		addState(new MenuState(MENU_STATE));
+//        addState(new GameState(GAME_STATE));
+//        addState(new OptState(OPT_STATE));
+//        
+//        StateBasedEntityManager.getInstance().addState(MENU_STATE);
+//        StateBasedEntityManager.getInstance().addState(GAME_STATE);
+//        StateBasedEntityManager.getInstance().addState(OPT_STATE);
 		
     }
 }
